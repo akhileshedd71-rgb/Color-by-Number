@@ -1,0 +1,13 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="FontVariation" path="res://assets/fonts/Heading.tres" id="1"]
+[ext_resource type="Script" path="res://scripts/ui/juicy_button.gd" id="2"]
+[ext_resource type="Theme" path="res://resources/game_theme.tres" id="3"]
+[ext_resource type="Script" path="res://scripts/ui/color_chip.gd" id="4"]
+
+[node name="ColorChip" type="Button"]
+custom_minimum_size = Vector2(60, 68)
+size_flags_vertical = 4
+theme = ExtResource("3")
+script = ExtResource("4")
+mouse_default_cursor_shape = 2

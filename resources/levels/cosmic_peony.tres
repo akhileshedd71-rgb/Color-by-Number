@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ArtworkData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/game/artwork_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/art/cosmic_peony_preview.svg" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "cosmic_peony"
+title = "Cosmic Peony"
+category = "Florals"
+difficulty = "Easy"
+minutes = 6
+unlock_after = 0
+regions_path = "res://resources/levels/cosmic_peony.json"
+thumbnail = ExtResource("2")
+background = Color(0.12, 0.075, 0.26, 1)
